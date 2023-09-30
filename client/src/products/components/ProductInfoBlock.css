@@ -1,0 +1,47 @@
+.info {
+  position: relative;
+  justify-self: end;
+  width: 45%;
+  flex-grow: 1;
+  /* margin-left: 2rem; */
+}
+
+.info .title {
+  font-weight: 500;
+  
+}
+
+.info .rating {
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+.info .price {
+  margin-bottom: 20px;
+}
+
+.info .overview {
+  margin-bottom: 20px;
+}
+
+/* .info .about {
+  font-size: 18px;
+}
+
+.info .about h1,
+.info .about h2,
+.info .about h3 {
+
+  margin-bottom: 1rem;
+} */
+
+.info .about ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* @media  (max-width: 1200px) {
+  .info {
+    margin: 0;
+    width: 100%;
+  }
+} */

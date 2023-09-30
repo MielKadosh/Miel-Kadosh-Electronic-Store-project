@@ -1,0 +1,53 @@
+.images-container {
+  display: flex;
+  gap: 1rem;
+  width: 55%;
+  position: sticky;
+  top: 9rem;
+  height: fit-content;
+}
+
+.images-container .image-list {
+  display: grid;
+  gap:0.3rem;
+  list-style: none;
+  width: 15%;
+  height: fit-content;
+}
+
+.images-container .image-list .image {
+  border-radius: 4px;
+  cursor: pointer;
+  max-height: 4.5rem; 
+}
+
+.images-container .image-list .image:hover,
+.images-container .image-list .image.active {
+  padding: 5px;
+  border: inset 2px solid rgb(158, 172, 255);
+  box-shadow: 0 0 3px 2px rgb(158, 172, 255);
+  border-radius: 8px;
+}
+
+.images-container .image-list img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+
+.images-container .image-container{
+  width: 85%;
+  max-height: 25rem;
+}
+
+.images-container .image-container img {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 16px;
+}
+
+
+
