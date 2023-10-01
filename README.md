@@ -25,6 +25,7 @@ Including Authentications, **Rest API**, File Uploading, and Data-Base maintenan
     * Clone the 'client' repo to your local machine.
     * Using the terminal, navigate to the cloned repo.
     * Install all the neccessary dependencies, as stipulated in the package.json file.
+    * (if install dosen't work try: npm install --legacy-peer-deps).
     * Start the client.
     * Your client app should be running just fine.
 
